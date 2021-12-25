@@ -3,9 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MissionSceneConfig : MonoBehaviour {
+    public static MissionSceneConfig Instance;
 
     [SerializeField]
-    public List<PathMove> paths=new List<PathMove>();    
+    public List<PathMove> paths=new List<PathMove>();
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+    }
+
     // Use this for initialization
     public void AddNewPathMove()
     {

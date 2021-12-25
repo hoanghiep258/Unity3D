@@ -45,12 +45,15 @@ public class FSMSystem : MonoBehaviour
         }
     }
 
-	#endregion
+    #endregion
 
-	#region Unity function
-
-	// Update is called once per frame
-	void Update ()
+    #region Unity function
+    private void Start()
+    {
+		OnSystemStart();
+    }
+    // Update is called once per frame
+    void Update ()
 	{
 		OnSystemUpdate ();
 		if (currentState != null) {

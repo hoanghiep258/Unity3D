@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 41673c1d28d4f4a1f9f5e9ad9d4fcab9
+guid: 5601ce543670542b094050f3c099d824
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
-    borderMipMap: 1
+    borderMipMap: 0
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
@@ -67,7 +67,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -79,7 +79,7 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -91,7 +91,7 @@ TextureImporter:
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
